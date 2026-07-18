@@ -91,15 +91,25 @@ body {
 .box1{
   width: 250px;
   height: 160px;
-  /* margin: 150px;
-  margin-right: 0px; */
   background-color: #f1f2f6;
   position: absolute;
   top: 110px;
   left: 240px;
   border-radius: 13px;
   box-shadow:0 4px 8px rgba(0,0,0,0.2);
-  
+
 }
+.box2{
+  width: 250px;
+  height: 160px;
+  background-color: #f1f2f6;
+  position: absolute;
+  top: 110px;
+  left: 520px;
+  border-radius: 13px;
+  box-shadow:0 4px 8px rgba(0,0,0,0.2);
+
+}
+
 
 
