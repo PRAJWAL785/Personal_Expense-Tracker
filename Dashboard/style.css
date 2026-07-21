@@ -30,7 +30,7 @@ body {
 }
 
 .nav-links li {
-  color: #a0aec0;            
+  color: #ffffff;            
   padding: 12px 15px;
   margin-bottom: 8px;
   border-radius: 8px;
@@ -39,17 +39,18 @@ body {
 
 .nav-links li:hover {
   background-color: #4586f5; 
-  color: #ffffff; 
+  /* color: #ffffff;  */
 }
+
+/* ************************************** */
 .nav-links a {
-      color: #a0aec0; 
+      color: #ffffff; 
       text-decoration: none;
     }
     .nav-links a:visited {
-      color: #a0aec0;
+      color: #ffffff;
     }
-
-
+/* ************************************** */
 .dashboard_header {
   display: flex;
   justify-content: space-between;
