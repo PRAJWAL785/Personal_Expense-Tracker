@@ -123,14 +123,17 @@ body {
 .input_month{
   position: absolute;
   left: 20px;
+  width: 140px;
+  height: 25px;
   border-radius: 5px;
 }
 .month_form button{
   background-color: #f8fafc;
-  width: 50px;
-  height: 20px;
+  width: 60px;
+  height: 25px;
   position: absolute;
   left: 170px;
+  border-radius: 5px;
 }
 .monthly_report{
   background-color: #f8fafc;
@@ -143,13 +146,12 @@ body {
 }
 
 .submit-btn:hover {
-  background-color: #4586f5; /* Darker blue on hover */
-  transform: translateY(-2px); /* Subtle lift-up effect */
+  
+  background-color: #4586f5;
+  transform: translateY(-2px);
 }
-
-/* 3. Optional: Style the active (click) state */
 .submit-btn:active {
-  transform: translateY(0);    /* Pushes button back down when clicked */
+  transform: translateY(0);
 }
 
 

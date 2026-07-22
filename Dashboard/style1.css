@@ -45,6 +45,7 @@ body {
   transform: translateY(0);   
 }
 
+
 /* ************************************** */
 .nav-links a {
       color: #ffffff; 
@@ -204,6 +205,22 @@ body {
   width: 500px;
   border-radius: 5px;
 }
+.button:hover {
+  background-color: #4586f5; /* Darker blue on hover */
+  transform: translateY(-2px); /* Subtle lift-up effect */
+}
 
+/* 3. Optional: Style the active (click) state */
+.button:active {
+  transform: translateY(0);    /* Pushes button back down when clicked */
+}
+.button2:hover {
+  background-color: #4586f5; /* Darker blue on hover */
+  transform: translateY(-2px); /* Subtle lift-up effect */
+}
 
+/* 3. Optional: Style the active (click) state */
+.button2:active {
+  transform: translateY(0);    /* Pushes button back down when clicked */
+}
 
