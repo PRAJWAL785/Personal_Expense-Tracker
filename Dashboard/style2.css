@@ -104,12 +104,52 @@ body {
   border-radius: 15px ;
 }
 
-.monthly_report{
-    background-color:#f5f5f5;
+.month_form{
+    background-color:#ffffff;
     position: absolute;
-    width: 80%;
-    height: 50%;
+    width: 20%;
+    height: 15%;
     border-radius: 20px;
     left: 240px;
     top: 110px;
 }
+
+.month_form p {
+  padding: 15px 15px;
+}
+.input_month{
+  position: absolute;
+  left: 20px;
+  border-radius: 5px;
+}
+.month_form button{
+  background-color: #f8fafc;
+  width: 50px;
+  height: 20px;
+  position: absolute;
+  left: 170px;
+}
+.monthly_report{
+  background-color: #f8fafc;
+  position: absolute;
+  left: 240px;
+  top: 230px;
+  height: 420px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background-color: #4586f5; /* Darker blue on hover */
+  transform: translateY(-2px); /* Subtle lift-up effect */
+}
+
+/* 3. Optional: Style the active (click) state */
+.submit-btn:active {
+  transform: translateY(0);    /* Pushes button back down when clicked */
+}
+
+
+
+
+
