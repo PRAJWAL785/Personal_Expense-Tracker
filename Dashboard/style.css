@@ -293,3 +293,36 @@ body {
   background-color: #cdeedd;
   color: #1e7e46;
 }
+#balanceAmount{
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 19px;
+  left: 60px;
+  top: 72px;
+}
+#incomeAmount {
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 19px;
+  left: 60px;
+  top: 72px;
+}
+#expenseAmount{
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 19px;
+  left: 60px;
+  top: 72px;
+}
+#budgetAmount{
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 19px;
+  left: 60px;
+  top: 72px;
+}
+

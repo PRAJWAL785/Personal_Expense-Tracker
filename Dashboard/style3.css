@@ -237,11 +237,13 @@ body {
 }
 
 .developer-socials {
-  display: flex;
   justify-content: center;
   gap: 15px;
   font-size: 18px;
   color: #3a5bfb;
+}
+.developer-socials i{
+    color: #3a5bfb;
 }
 
 .version-badge {

@@ -39,9 +39,9 @@
   
   <h2 class="add_income">Add Income</h2>
   <p class="p_date"><b>Date</b></p><p class="p_description"><b>Description</b></p><p class="p_amount"><b>Amount</b></p>
-  <form action="p.php"><input class="input_date" type="date">
-  <input type="number" id="amount" name="amount" min="0.0" step="0.1"placeholder="0.0">
-  <input class="input_description" type="text" placeholder="Write Description"  >
+  <form action="incomeForm"><input id="incomeDate" class="input_date" type="date">
+  <input type="number" id="incomeAmount" name="amount" min="0.0" step="0.1"placeholder="0.0">
+  <input class="input_description"id="incomeDescription" type="text" placeholder="Write Description"  >
 <button type="submit" class="button">Add Income</button>
 </form>
 </div>
@@ -50,11 +50,11 @@
   <h2 class="add_income">Add Expense</h2>
   <p class="p_date"><b>Date</b></p><p class="p_description"><b>Description</b></p><p class="p_amount"><b>Amount</b></p>
   <p class="p_category"><b>Category</b></p>
-  <form action="a.php">
-  <input class="input_date" type="date">
-  <input type="text" class="category" placeholder="Add Category">
-  <input type="number" id="amount" name="amount" min="0.0" step="0.1"placeholder="0.0">
-  <input class="input_description" type="text" placeholder="Write Description"  >
+  <form action="expenseForm">
+  <input id="expenseDate" class="input_date" type="date">
+  <input type="text" id="expenseCategory" class="category" placeholder="Add Category">
+  <input type="number" id="expenseAmount" name="amount" min="0.0" step="0.1"placeholder="0.0">
+  <input class="input_description" id="expenseDescription" type="text" placeholder="Write Description"  >
   <button type="submit" class="button2">Add Expense</button>
 </form></div>
 
