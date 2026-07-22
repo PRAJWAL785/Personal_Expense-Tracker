@@ -19,7 +19,7 @@
   <ul class="nav-links">
     <li><i class="fa-solid fa-house"></i><a href="http://127.0.0.1:5500/Dashboard/index.html">     Dashboard</a>  </li>
     <li><i class="fa-solid fa-circle-dollar-to-slot"></i><a href="http://127.0.0.1:5500/Dashboard/add%20transaction/add-transaction.html">     Add Transaction</a></li>
-    <li><i class="fa-solid fa-chart-column"></i>    Reports</li>
+    <li><i class="fa-solid fa-chart-column"></i><a href="http://127.0.0.1:5500/Dashboard/report/report.html">    Reports</a></li>
     <li><i class="fa-solid fa-circle-user"></i>     About</li>
   </ul>
 </div>
@@ -36,24 +36,27 @@
 </header>
 
 <div class="content_box">
+  
   <h2 class="add_income">Add Income</h2>
   <p class="p_date"><b>Date</b></p><p class="p_description"><b>Description</b></p><p class="p_amount"><b>Amount</b></p>
-  <input class="input_date" type="date">
+  <form action="p.php"><input class="input_date" type="date">
   <input type="number" id="amount" name="amount" min="0.0" step="0.1"placeholder="0.0">
-  <button type="submit" class="button">Add Income</button>
   <input class="input_description" type="text" placeholder="Write Description"  >
+<button type="submit" class="button">Add Income</button>
+</form>
 </div>
 
 <div class="add_expense">
   <h2 class="add_income">Add Expense</h2>
   <p class="p_date"><b>Date</b></p><p class="p_description"><b>Description</b></p><p class="p_amount"><b>Amount</b></p>
-  <input class="input_date" type="date">
   <p class="p_category"><b>Category</b></p>
+  <form action="a.php">
+  <input class="input_date" type="date">
   <input type="text" class="category" placeholder="Add Category">
   <input type="number" id="amount" name="amount" min="0.0" step="0.1"placeholder="0.0">
-  <button type="submit" class="button2">Add Expense</button>
   <input class="input_description" type="text" placeholder="Write Description"  >
-</div>
+  <button type="submit" class="button2">Add Expense</button>
+</form></div>
 
 
 
